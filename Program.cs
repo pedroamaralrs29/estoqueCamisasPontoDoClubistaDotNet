@@ -89,3 +89,4 @@ static void AdicionarCamisa(Estoque estoquePontoDoClubista)
 }
 
 //teste para verificar commit
+//teste para enviar para o github
