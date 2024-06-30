@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\modelos\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|solutionrelative:modelos\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\modelos\\camisas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|solutionrelative:modelos\\camisas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Modelos\\Estoque.cs",
+              "RelativeDocumentMoniker": "Modelos\\Estoque.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Modelos\\Estoque.cs*",
+              "RelativeToolTip": "Modelos\\Estoque.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T15:54:22.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Camisas.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Modelos\\Camisas.cs",
+              "RelativeDocumentMoniker": "Modelos\\Camisas.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Modelos\\Camisas.cs*",
+              "RelativeToolTip": "Modelos\\Camisas.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T15:46:39.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T14:47:49.603Z",
               "EditorCaption": ""

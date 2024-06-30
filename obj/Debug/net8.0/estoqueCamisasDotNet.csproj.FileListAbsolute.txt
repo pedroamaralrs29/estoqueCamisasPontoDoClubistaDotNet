@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\bin\Debug\net8.0\estoqueCamisasDotNet.exe
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\bin\Debug\net8.0\estoqueCamisasDotNet.deps.json
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\bin\Debug\net8.0\estoqueCamisasDotNet.runtimeconfig.json
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\bin\Debug\net8.0\estoqueCamisasDotNet.dll
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\bin\Debug\net8.0\estoqueCamisasDotNet.pdb
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.sourcelink.json
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.dll
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\refint\estoqueCamisasDotNet.dll
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.pdb
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\estoqueCamisasDotNet.genruntimeconfig.cache
+C:\Users\user\Desktop\C#\estoqueCamisasDotNet\obj\Debug\net8.0\ref\estoqueCamisasDotNet.dll
