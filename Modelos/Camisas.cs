@@ -14,4 +14,9 @@ public class Camisas
         Preco = preco;
         Id = id;
     }
+
+    public override string ToString()
+    {
+        return $"Camisa do time: {NomeDoTime}, Tamanho: {Tamanho}, Preço: {Preco:C}, ID: {Id}";
+    }
 }
