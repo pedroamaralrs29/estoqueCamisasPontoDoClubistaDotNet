@@ -1,5 +1,19 @@
 ﻿using estoqueCamisasDotNet.Modelos;
 using System.Threading.Channels;
+using estoqueCamisasDotNet.Banco;
+
+try
+{
+    using var connection = new Connection().ObterConexao();
+    connection.Open();
+    Console.WriteLine(connection.State);
+}
+catch(Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+
+return;
 
 Camisas AtleticoMG = new Camisas("Camisa Listrada", "M", 169.90, 123);
 Camisas Cruzeiro = new Camisas("Camisa Azul", "G", 169.90, 1234);
