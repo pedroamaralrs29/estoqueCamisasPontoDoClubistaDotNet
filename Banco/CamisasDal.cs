@@ -13,7 +13,7 @@ internal class CamisasDal
     public List<Camisas> Listar()
     {
         var lista = new List<Camisas>();
-        using var connection = new Connection().ObterConexao();
+        using var connection = new estoqueDeCamisasDotNetContext().ObterConexao();
         connection.Open();
 
         string sql = "SELECT *FROM Camisas";
@@ -36,7 +36,7 @@ internal class CamisasDal
 
     public void Adcionar(Camisas camisa)
     {
-        using var connection = new Connection().ObterConexao();
+        using var connection = new estoqueDeCamisasDotNetContext().ObterConexao();
         connection.Open();
 
         string sql = "INSERT INTO Camisas (Id, NomeDoTime, Tamanho, Preco) " +
@@ -56,7 +56,7 @@ internal class CamisasDal
 
     public void Atualizar(Camisas camisa)
     {
-        using var connection = new Connection().ObterConexao();
+        using var connection = new estoqueDeCamisasDotNetContext().ObterConexao();
         connection.Open();
 
         string sql = "UPDATE Camisas SET NomeDoTime = @NomeDoTime, " +
@@ -76,7 +76,7 @@ internal class CamisasDal
 
     public void Deletar(Camisas camisa)
     {
-        using var connection = new Connection().ObterConexao();
+        using var connection = new estoqueDeCamisasDotNetContext().ObterConexao();
         connection.Open();
 
         string sql = "DELET FROM Camisas WHERE Id = @Id";
