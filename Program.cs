@@ -4,9 +4,22 @@ using estoqueCamisasDotNet.Banco;
 
 try
 {
-    using var connection = new Connection().ObterConexao();
-    connection.Open();
-    Console.WriteLine(connection.State);
+    var camisasDal  = new CamisasDal();
+    var novaCamisa = new Camisas("Barcelona", "M", 200.00, 74158);
+    camisasDal.Adcionar(novaCamisa);
+    novaCamisa.NomeDoTime = "Mancher City";
+    novaCamisa.Tamanho = "G";
+    novaCamisa.Preco = 210.00;
+    novaCamisa.Id = 74569;
+
+    camisasDal.Atualizar(novaCamisa);
+
+    var listaDeCamisas = camisasDal.Listar();
+
+    foreach(var camisas in listaDeCamisas)
+    {
+        Console.WriteLine(camisas);
+    }
 }
 catch(Exception ex)
 {
