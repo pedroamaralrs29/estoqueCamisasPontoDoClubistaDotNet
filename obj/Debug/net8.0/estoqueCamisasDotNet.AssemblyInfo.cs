@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("estoqueCamisasDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8153f4f767e1c7ad64e49e31bc6cdc722b75869c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84c42c7a45508540002e5926cce79be74ad2b612")]
 [assembly: System.Reflection.AssemblyProductAttribute("estoqueCamisasDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("estoqueCamisasDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
