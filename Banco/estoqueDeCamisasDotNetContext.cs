@@ -13,6 +13,8 @@ namespace estoqueCamisasDotNet.Banco
 {
     internal class estoqueDeCamisasDotNetContext : DbContext
     {
+        public DbSet<Camisas> Camisas { get; set; } 
+
         private string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PontoDoClubista;Integrated Security=True;" +
             "Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
 
