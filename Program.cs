@@ -3,40 +3,11 @@ using System.Threading.Channels;
 using estoqueCamisasDotNet.Banco;
 using System.ComponentModel.Design;
 
-//try
-//{
-//    var context = new estoqueDeCamisasDotNetContext();
-//    var camisasDal  = new CamisasDal(context);
-
-//    var novaCamisa = new Camisas("Manchester City", "P", 220.50m, 45678);
-//    camisasDal.Atualizar(novaCamisa);
-//    camisasDal.Deletar(novaCamisa);
-
-//    var listaDeCamisas = camisasDal.Listar();
-
-//    foreach(var camisas in listaDeCamisas)
-//    {
-//        Console.WriteLine(camisas);
-//    }
-//}
-//catch(Exception ex)
-//{
-//    Console.WriteLine(ex.Message);
-//}
-
-//return;
-
-//Camisas AtleticoMG = new Camisas("Camisa Listrada", "M", 169.00m, 123);
-//Camisas Cruzeiro = new Camisas("Camisa Azul", "G", 169.00m, 1234);
-
-//Estoque estoquePontoDoClubista = new Estoque();
-//estoquePontoDoClubista.AdicionarCamisa(Cruzeiro);
-//estoquePontoDoClubista.AdicionarCamisa(AtleticoMG);
 
 try
 {
     var context = new estoqueDeCamisasDotNetContext();
-    var camisasDal  = new CamisasDal(context);
+    DAL<Camisas> camisasDal = new DAL<Camisas>(context);
     Console.Clear();
 
     bool continuar = true;
@@ -83,7 +54,7 @@ catch (Exception ex)
     Console.WriteLine($"Ocorreu um erro: {ex.Message}");
 }
 
-void AtualizarCamisa(CamisasDal camisasDal)
+void AtualizarCamisa(DAL<Camisas> camisasDal)
 {
     try
     {
@@ -133,7 +104,7 @@ void AtualizarCamisa(CamisasDal camisasDal)
 
 }
 
-void MostrarEstoque(CamisasDal camisasDal)
+void MostrarEstoque(DAL<Camisas> camisasDal)
 {
     try
     {
@@ -151,7 +122,7 @@ void MostrarEstoque(CamisasDal camisasDal)
     }
 }
 
-static void RemoverCamisa(CamisasDal camisasDal)
+static void RemoverCamisa(DAL<Camisas> camisasDal)
 {
     try
     {
@@ -181,7 +152,7 @@ static void RemoverCamisa(CamisasDal camisasDal)
     }
 }
 
-static void AdicionarCamisa(CamisasDal camisasDal)
+static void AdicionarCamisa(DAL<Camisas> camisasDal)
 {
     try
     {
