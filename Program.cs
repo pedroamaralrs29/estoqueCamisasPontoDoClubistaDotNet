@@ -2,6 +2,7 @@
 using System.Threading.Channels;
 using estoqueCamisasDotNet.Banco;
 using System.ComponentModel.Design;
+using Microsoft.EntityFrameworkCore;
 
 
 try
@@ -167,22 +168,31 @@ static void AdicionarCamisa(DAL<Camisas> camisasDal)
             Console.WriteLine("Valor inválido. Digite um número válido.");
             Console.Write("Preço: ");
         }
-        Console.Write("ID: ");
-        int id;
-        while (!int.TryParse(Console.ReadLine(), out id))
-        {
-            Console.WriteLine("ID inválido. Digite um número inteiro válido.");
-            Console.Write("ID: ");
-        }
+        Console.WriteLine("Digite o gênero da camisa: ");
+        string genero = Console.ReadLine()!;
+        //Console.Write("ID: ");
+        //int id;
+        //while (!int.TryParse(Console.ReadLine(), out id))
+        //{
+        //    Console.WriteLine("ID inválido. Digite um número inteiro válido.");
+        //    Console.Write("ID: ");
+        //}
 
-        Camisas novaCamisa = new Camisas(nomeDoTime, tamanhoDaCamisa, preco, id);
+        Camisas novaCamisa = new Camisas(nomeDoTime, tamanhoDaCamisa, preco, genero);
         camisasDal.Adcionar(novaCamisa);
         Console.WriteLine("\nCamisa adicionada com sucesso!");
 
     }
+    catch (DbUpdateException ex)
+    {
+        Console.WriteLine($"Erro ao adicionar camisa: {ex.Message}");
+        if (ex.InnerException != null)
+        {
+            Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+        }
+    }
     catch (Exception ex)
     {
-
         Console.WriteLine($"Erro ao adicionar camisa: {ex.Message}");
     }
 }
