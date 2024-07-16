@@ -9,16 +9,16 @@ public class Camisas
     public string Genero { get; set; }
 
 
-    public Camisas(string nomeDoTime, string tamanho, decimal preco, int id)
+    public Camisas(string nomeDoTime, string tamanho, decimal preco, string genero)
     {
         NomeDoTime = nomeDoTime;
         Tamanho = tamanho;
         Preco = preco;
-        Id = id;
+        Genero = genero;
     }
 
     public override string ToString()
     {
-        return $"Camisa do time: {NomeDoTime}, Tamanho: {Tamanho}, Preço: {Preco}, ID: {Id}";
+        return $"Camisa do time: {NomeDoTime}, Tamanho: {Tamanho}, Preço: {Preco}, ID: {Id}, Genero: {Genero}";
     }
 }

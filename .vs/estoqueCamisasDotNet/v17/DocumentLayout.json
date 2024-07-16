@@ -3,11 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PontoDoClubistaV0/True/SqlTable/dbo.__EFMigrationsHistory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\migrations\\20240713142456_projetoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|solutionrelative:migrations\\20240713142456_projetoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\estoquecamisasdotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|solutionrelative:estoquecamisasdotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23B16E13-5B43-42ED-886D-14E1FAE78E9F}|estoqueCamisasDotNet.csproj|c:\\users\\user\\desktop\\c#\\estoquecamisasdotnet\\banco\\estoquedecamisasdotnetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,31 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.__EFMigrationsHistory [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PontoDoClubistaV0/True/SqlTable/dbo.__EFMigrationsHistory.sql",
-              "ToolTip": "dbo.__EFMigrationsHistory [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-13T14:34:30.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "estoqueDeCamisasDotNetContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Banco\\estoqueDeCamisasDotNetContext.cs",
-              "RelativeDocumentMoniker": "Banco\\estoqueDeCamisasDotNetContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Banco\\estoqueDeCamisasDotNetContext.cs",
-              "RelativeToolTip": "Banco\\estoqueDeCamisasDotNetContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T14:30:43.836Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -53,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240713142456_projetoInicial.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Migrations\\20240713142456_projetoInicial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240713142456_projetoInicial.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Migrations\\20240713142456_projetoInicial.cs",
-              "RelativeToolTip": "Migrations\\20240713142456_projetoInicial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Title": "estoqueDeCamisasDotNetContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Banco\\estoqueDeCamisasDotNetContext.cs",
+              "RelativeDocumentMoniker": "Banco\\estoqueDeCamisasDotNetContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\Banco\\estoqueDeCamisasDotNetContext.cs",
+              "RelativeToolTip": "Banco\\estoqueDeCamisasDotNetContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T14:24:56.324Z",
+              "WhenOpened": "2024-07-16T22:15:52.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "estoqueCamisasDotNet",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\estoqueCamisasDotNet.csproj",
+              "RelativeDocumentMoniker": "estoqueCamisasDotNet.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\estoqueCamisasDotNet\\estoqueCamisasDotNet.csproj",
+              "RelativeToolTip": "estoqueCamisasDotNet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T22:14:36.493Z",
               "EditorCaption": ""
             }
           ]
