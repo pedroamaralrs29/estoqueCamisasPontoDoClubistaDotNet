@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoqueCamisasDotNet", "estoqueCamisasDotNet.csproj", "{23B16E13-5B43-42ED-886D-14E1FAE78E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "estoqueCamisasDotNet", "estoqueCamisasDotNet.csproj", "{23B16E13-5B43-42ED-886D-14E1FAE78E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estoquePontoDoClubistaAPI", "..\estoquePontoDoClubista\estoquePontoDoClubistaAPI.csproj", "{176AD8D1-E742-433C-BCD2-7E988C8E0C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoquePontoDoClubista.Shared.Modelos", "..\EstoquePontoDoClubista.Shared.Modelos\EstoquePontoDoClubista.Shared.Modelos.csproj", "{01F1D540-6BB2-46C9-9C68-FA8F3A097491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoDoClubista.Shared.Dados", "..\PontoDoClubista.Shared.Dados\PontoDoClubista.Shared.Dados.csproj", "{7A36FA97-8C17-43C3-BCC5-DBE96EBA5124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{23B16E13-5B43-42ED-886D-14E1FAE78E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B16E13-5B43-42ED-886D-14E1FAE78E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B16E13-5B43-42ED-886D-14E1FAE78E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176AD8D1-E742-433C-BCD2-7E988C8E0C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176AD8D1-E742-433C-BCD2-7E988C8E0C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176AD8D1-E742-433C-BCD2-7E988C8E0C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176AD8D1-E742-433C-BCD2-7E988C8E0C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F1D540-6BB2-46C9-9C68-FA8F3A097491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F1D540-6BB2-46C9-9C68-FA8F3A097491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F1D540-6BB2-46C9-9C68-FA8F3A097491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F1D540-6BB2-46C9-9C68-FA8F3A097491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A36FA97-8C17-43C3-BCC5-DBE96EBA5124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A36FA97-8C17-43C3-BCC5-DBE96EBA5124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A36FA97-8C17-43C3-BCC5-DBE96EBA5124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A36FA97-8C17-43C3-BCC5-DBE96EBA5124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
