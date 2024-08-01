@@ -1388,6 +1388,32 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "EstoquePontoDoClubista.Shared.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EstoquePontoDoClubista.Shared.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EstoquePontoDoClubista.Shared.Modelos.dll": {}
+        }
+      },
+      "PontoDoClubista.Shared.Dados/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EstoquePontoDoClubista.Shared.Modelos": "1.0.0",
+          "Microsoft.Data.SqlClient": "5.2.1",
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"
+        },
+        "compile": {
+          "bin/placeholder/PontoDoClubista.Shared.Dados.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PontoDoClubista.Shared.Dados.dll": {}
+        }
       }
     }
   },
@@ -3785,15 +3811,27 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EstoquePontoDoClubista.Shared.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../EstoquePontoDoClubista.Shared.Modelos/EstoquePontoDoClubista.Shared.Modelos.csproj",
+      "msbuildProject": "../EstoquePontoDoClubista.Shared.Modelos/EstoquePontoDoClubista.Shared.Modelos.csproj"
+    },
+    "PontoDoClubista.Shared.Dados/1.0.0": {
+      "type": "project",
+      "path": "../PontoDoClubista.Shared.Dados/PontoDoClubista.Shared.Dados.csproj",
+      "msbuildProject": "../PontoDoClubista.Shared.Dados/PontoDoClubista.Shared.Dados.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EstoquePontoDoClubista.Shared.Modelos >= 1.0.0",
       "Microsoft.Data.SqlClient >= 5.2.1",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
+      "PontoDoClubista.Shared.Dados >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3817,12 +3855,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\C#\\EstoquePontoDoClubista.Shared.Modelos\\EstoquePontoDoClubista.Shared.Modelos.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\C#\\EstoquePontoDoClubista.Shared.Modelos\\EstoquePontoDoClubista.Shared.Modelos.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\C#\\PontoDoClubista.Shared.Dados\\PontoDoClubista.Shared.Dados.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\C#\\PontoDoClubista.Shared.Dados\\PontoDoClubista.Shared.Dados.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

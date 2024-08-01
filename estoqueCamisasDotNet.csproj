@@ -25,4 +25,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EstoquePontoDoClubista.Shared.Modelos\EstoquePontoDoClubista.Shared.Modelos.csproj" />
+    <ProjectReference Include="..\PontoDoClubista.Shared.Dados\PontoDoClubista.Shared.Dados.csproj" />
+  </ItemGroup>
+
 </Project>
