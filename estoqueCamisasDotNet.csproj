@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EstoquePontoDoClubista.Shared.Modelos\EstoquePontoDoClubista.Shared.Modelos.csproj" />
+    <ProjectReference Include="..\estoquePontoDoClubista\estoquePontoDoClubistaAPI.csproj" />
     <ProjectReference Include="..\PontoDoClubista.Shared.Dados\PontoDoClubista.Shared.Dados.csproj" />
   </ItemGroup>
 
